@@ -1,0 +1,834 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WinFormsApp2/1.0.0": {
+        "dependencies": {
+          "System.Data.SqlClient": "4.8.6",
+          "Ben.Demystifier": "0.1.0.0",
+          "MessagePack.Annotations": "2.5.0.0",
+          "MessagePack": "2.5.0.0",
+          "Microsoft.Azure.Management.ResourceManager": "3.0.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "7.0.0.0",
+          "Microsoft.Developer.IdentityService.Core": "1.0.0.0",
+          "Microsoft.Developer.IdentityService": "1.0.0.0",
+          "Microsoft.Identity.Client.Broker": "4.58.1.0",
+          "Microsoft.Identity.Client": "4.58.1.0",
+          "Microsoft.Identity.Client.Extensions.Msal": "2.24.0.0",
+          "Microsoft.Identity.Client.NativeInterop": "0.14.1.0",
+          "Microsoft.IdentityModel.Abstractions": "6.22.0.0",
+          "Microsoft.IdentityModel.Clients.ActiveDirectory": "5.2.9.0",
+          "Microsoft.IdentityModel.JsonWebTokens": "5.6.0.0",
+          "Microsoft.IdentityModel.Logging": "5.6.0.0",
+          "Microsoft.IdentityModel.Tokens": "5.6.0.0",
+          "Microsoft.IdentityService.Clients.ActiveDirectory": "3.17.2.31",
+          "Microsoft.NET.StringTools": "1.0.0.0",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.0.0.0",
+          "Microsoft.Rest.ClientRuntime": "2.0.0.0",
+          "Microsoft.TeamFoundation.Common": "16.0.0.0",
+          "Microsoft.VisualStudio.Composition": "17.6.0.0",
+          "Microsoft.VisualStudio.Services.Client.Interactive": "16.0.0.0",
+          "Microsoft.VisualStudio.Services.Common": "16.0.0.0",
+          "Microsoft.VisualStudio.Services.WebApi": "16.0.0.0",
+          "Microsoft.Web.WebView2.Core": "1.0.864.35",
+          "Microsoft.Web.WebView2.WinForms": "1.0.864.35",
+          "Microsoft.Web.WebView2.Wpf": "1.0.864.35",
+          "Microsoft.Windows.SDK.NET": "10.0.18362.24",
+          "Newtonsoft.Json.Bson": "1.0.0.0",
+          "Octokit": "4.0.0.0",
+          "System.ComponentModel.Composition": "4.0.0.0",
+          "System.Composition.AttributedModel": "7.0.0.0",
+          "System.Composition.Convention": "7.0.0.0",
+          "System.Composition.Hosting": "7.0.0.0",
+          "System.Composition.Runtime": "7.0.0.0",
+          "System.Composition.TypedParts": "7.0.0.0",
+          "System.IdentityModel.Tokens.Jwt": "5.6.0.0",
+          "System.Management": "4.0.0.0",
+          "System.Net.Http.Formatting": "5.2.7.0",
+          "System.Xml.XPath.XmlDocument": "4.0.2.0",
+          "WinRT.Runtime": "2.0.0.0"
+        },
+        "runtime": {
+          "WinFormsApp2.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+        "dependencies": {
+          "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x64.runtime.native.System.Data.SqlClient.sni": "4.4.0",
+          "runtime.win-x86.runtime.native.System.Data.SqlClient.sni": "4.4.0"
+        }
+      },
+      "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-arm64/native/sni.dll": {
+            "rid": "win-arm64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/sni.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+        "runtimeTargets": {
+          "runtimes/win-x86/native/sni.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "4.6.25512.1"
+          }
+        }
+      },
+      "System.Data.SqlClient/4.8.6": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0",
+          "runtime.native.System.Data.SqlClient.sni": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
+          },
+          "runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.6.1.6",
+            "fileVersion": "4.700.23.52603"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "Ben.Demystifier/0.1.0.0": {
+        "runtime": {
+          "Ben.Demystifier.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.2.14"
+          }
+        }
+      },
+      "MessagePack.Annotations/2.5.0.0": {
+        "runtime": {
+          "MessagePack.Annotations.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.108.51978"
+          }
+        }
+      },
+      "MessagePack/2.5.0.0": {
+        "runtime": {
+          "MessagePack.dll": {
+            "assemblyVersion": "2.5.0.0",
+            "fileVersion": "2.5.108.51978"
+          }
+        }
+      },
+      "Microsoft.Azure.Management.ResourceManager/3.0.0.0": {
+        "runtime": {
+          "Microsoft.Azure.Management.ResourceManager.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/7.0.0.0": {
+        "runtime": {
+          "Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Developer.IdentityService.Core/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Developer.IdentityService.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.9.75.19686"
+          }
+        }
+      },
+      "Microsoft.Developer.IdentityService/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Developer.IdentityService.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.9.75.19686"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Broker/4.58.1.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.Broker.dll": {
+            "assemblyVersion": "4.58.1.0",
+            "fileVersion": "4.58.1.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client/4.58.1.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.dll": {
+            "assemblyVersion": "4.58.1.0",
+            "fileVersion": "4.58.1.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.Extensions.Msal/2.24.0.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.Extensions.Msal.dll": {
+            "assemblyVersion": "2.24.0.0",
+            "fileVersion": "2.24.0.0"
+          }
+        }
+      },
+      "Microsoft.Identity.Client.NativeInterop/0.14.1.0": {
+        "runtime": {
+          "Microsoft.Identity.Client.NativeInterop.dll": {
+            "assemblyVersion": "0.14.1.0",
+            "fileVersion": "0.14.1.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Abstractions/6.22.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Abstractions.dll": {
+            "assemblyVersion": "6.22.0.0",
+            "fileVersion": "6.22.0.30727"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Clients.ActiveDirectory/5.2.9.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {
+            "assemblyVersion": "5.2.9.0",
+            "fileVersion": "5.2.9.0"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.JsonWebTokens/5.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.JsonWebTokens.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Logging/5.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Logging.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Tokens/5.6.0.0": {
+        "runtime": {
+          "Microsoft.IdentityModel.Tokens.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "Microsoft.IdentityService.Clients.ActiveDirectory/3.17.2.31": {
+        "runtime": {
+          "Microsoft.IdentityService.Clients.ActiveDirectory.dll": {
+            "assemblyVersion": "3.17.2.31",
+            "fileVersion": "3.17.2.31"
+          }
+        },
+        "resources": {
+          "cs/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "cs"
+          },
+          "de/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "ko"
+          },
+          "pl/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "tr"
+          },
+          "zh-Hans/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.IdentityService.Clients.ActiveDirectory.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.NET.StringTools/1.0.0.0": {
+        "runtime": {
+          "Microsoft.NET.StringTools.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "17.4.0.51802"
+          }
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.0.0.0": {
+        "runtime": {
+          "Microsoft.Rest.ClientRuntime.Azure.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.3.18.0"
+          }
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.0.0.0": {
+        "runtime": {
+          "Microsoft.Rest.ClientRuntime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.3.20.0"
+          }
+        }
+      },
+      "Microsoft.TeamFoundation.Common/16.0.0.0": {
+        "runtime": {
+          "Microsoft.TeamFoundation.Common.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.201.32314.1"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Composition/17.6.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Composition.dll": {
+            "assemblyVersion": "17.6.0.0",
+            "fileVersion": "17.6.17.29956"
+          }
+        },
+        "resources": {
+          "cs/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "cs"
+          },
+          "de/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "de"
+          },
+          "es/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "es"
+          },
+          "fr/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "fr"
+          },
+          "it/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "it"
+          },
+          "ja/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "ja"
+          },
+          "ko/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "ko"
+          },
+          "pl/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "pl"
+          },
+          "pt-BR/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "ru/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "ru"
+          },
+          "tr/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "tr"
+          },
+          "zh-Hans/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "zh-Hant/Microsoft.VisualStudio.Composition.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Services.Client.Interactive/16.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Services.Client.Interactive.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.201.32314.1"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Services.Common/16.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Services.Common.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.201.32314.1"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Services.WebApi/16.0.0.0": {
+        "runtime": {
+          "Microsoft.VisualStudio.Services.WebApi.dll": {
+            "assemblyVersion": "16.0.0.0",
+            "fileVersion": "16.201.32314.1"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.864.35": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.864.35": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Wpf/1.0.864.35": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Wpf.dll": {
+            "assemblyVersion": "1.0.864.35",
+            "fileVersion": "1.0.864.35"
+          }
+        }
+      },
+      "Microsoft.Windows.SDK.NET/10.0.18362.24": {
+        "runtime": {
+          "Microsoft.Windows.SDK.NET.dll": {
+            "assemblyVersion": "10.0.18362.24",
+            "fileVersion": "10.0.18362.31"
+          }
+        }
+      },
+      "Newtonsoft.Json.Bson/1.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.Bson.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.1.20722"
+          }
+        }
+      },
+      "Octokit/4.0.0.0": {
+        "runtime": {
+          "Octokit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "System.ComponentModel.Composition/4.0.0.0": {
+        "runtime": {
+          "System.ComponentModel.Composition.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Composition.AttributedModel/7.0.0.0": {
+        "runtime": {
+          "System.Composition.AttributedModel.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Composition.Convention/7.0.0.0": {
+        "runtime": {
+          "System.Composition.Convention.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Composition.Hosting/7.0.0.0": {
+        "runtime": {
+          "System.Composition.Hosting.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Composition.Runtime/7.0.0.0": {
+        "runtime": {
+          "System.Composition.Runtime.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.Composition.TypedParts/7.0.0.0": {
+        "runtime": {
+          "System.Composition.TypedParts.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "System.IdentityModel.Tokens.Jwt/5.6.0.0": {
+        "runtime": {
+          "System.IdentityModel.Tokens.Jwt.dll": {
+            "assemblyVersion": "5.6.0.0",
+            "fileVersion": "5.6.0.61018"
+          }
+        }
+      },
+      "System.Management/4.0.0.0": {
+        "runtime": {
+          "System.Management.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Net.Http.Formatting/5.2.7.0": {
+        "runtime": {
+          "System.Net.Http.Formatting.dll": {
+            "assemblyVersion": "5.2.7.0",
+            "fileVersion": "5.2.61128.0"
+          }
+        }
+      },
+      "System.Xml.XPath.XmlDocument/4.0.2.0": {
+        "runtime": {
+          "System.Xml.XPath.XmlDocument.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.6.24705.1"
+          }
+        }
+      },
+      "WinRT.Runtime/2.0.0.0": {
+        "runtime": {
+          "WinRT.Runtime.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.4.44211"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsApp2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "runtime.native.System.Data.SqlClient.sni/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
+      "path": "runtime.native.system.data.sqlclient.sni/4.7.0",
+      "hashPath": "runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512"
+    },
+    "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbrynESTp3bm5O/+jGL8v0Qg5SJlTV08lpIpFesXjF6uGNMWqFnUQbYBJwZTeua6E/Y7FIM1C54Ey1btLWupdg==",
+      "path": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x64.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-38ugOfkYJqJoX9g6EYRlZB5U2ZJH51UP8ptxZgdpS07FgOEToV+lS11ouNK2PM12Pr6X/PpT5jK82G3DwH/SxQ==",
+      "path": "runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "runtime.win-x86.runtime.native.System.Data.SqlClient.sni/4.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YhEdSQUsTx+C8m8Bw7ar5/VesXvCFMItyZF7G1AUY+OM0VPZUOeAVpJ4Wl6fydBGUYZxojTDR3I6Bj/+BPkJNA==",
+      "path": "runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0",
+      "hashPath": "runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512"
+    },
+    "System.Data.SqlClient/4.8.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2Ij/LCaTQRyAi5lAv7UUTV9R2FobC8xN9mE0fXBZohum/xLl8IZVmE98Rq5ugQHjCgTBRKqpXRb4ORulRdA6Ig==",
+      "path": "system.data.sqlclient/4.8.6",
+      "hashPath": "system.data.sqlclient.4.8.6.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "Ben.Demystifier/0.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack.Annotations/2.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessagePack/2.5.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Azure.Management.ResourceManager/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl.AsyncInterfaces/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Developer.IdentityService.Core/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Developer.IdentityService/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client.Broker/4.58.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client/4.58.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client.Extensions.Msal/2.24.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Identity.Client.NativeInterop/0.14.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Abstractions/6.22.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Clients.ActiveDirectory/5.2.9.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.JsonWebTokens/5.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Logging/5.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityModel.Tokens/5.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.IdentityService.Clients.ActiveDirectory/3.17.2.31": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NET.StringTools/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Rest.ClientRuntime/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.TeamFoundation.Common/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Composition/17.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Services.Client.Interactive/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Services.Common/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Services.WebApi/16.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Core/1.0.864.35": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.864.35": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Wpf/1.0.864.35": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Windows.SDK.NET/10.0.18362.24": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json.Bson/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Octokit/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.ComponentModel.Composition/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Composition.AttributedModel/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Composition.Convention/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Composition.Hosting/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Composition.Runtime/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Composition.TypedParts/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.IdentityModel.Tokens.Jwt/5.6.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Management/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Net.Http.Formatting/5.2.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Xml.XPath.XmlDocument/4.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinRT.Runtime/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
